@@ -29,6 +29,7 @@ No additional dependencies are required beyond py-gpmf-parser.
 USE:
 
 Let's say you have a 360 file that you've recorded using your GoPro and imported onto your Mac or PC. Let's call it 100125.360
+
 First use GoPro Player to export from your 100125.360 file an mp4, using the H.264 codec. I'm sure you'd like to retain GPX data,
 but at the time of writing GoPro have thoughtfully removed that option on Mac, and they never had it on Windows. Very useful.
 
