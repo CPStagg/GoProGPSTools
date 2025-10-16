@@ -27,6 +27,7 @@ No additional dependencies are required beyond py-gpmf-parser.
 • 	If you're using a virtual environment, activate it before installing dependencies.
 
 USE:
+
 Let's say you have a 360 file that you've recorded using your GoPro and imported onto your Mac or PC. Let's call it 100125.360
 First use GoPro Player to export from your 100125.360 file an mp4, using the H.264 codec. I'm sure you'd like to retain GPX data,
 but at the time of writing GoPro have thoughtfully removed that option on Mac, and they never had it on Windows. Very useful.
@@ -49,7 +50,8 @@ But why does dump_gps_gpx.py require input arguments of both the 360 file AND th
 360 file when it exports, so you have to do a weird dance to satisfy Street View, which will spit the dummy if the .gpx and .mp4 timings are out of sync. Basically it discards the
 objective timings from the 360 file but uses its deltas, while taking the creation time of the .mp4 as the official start of its timing sequence. This does entail the odd
 consequence that if you recorded three minutes of footage at noon on Wednesday 12th but exported the mp4 at midnight on Friday 14th, the files uploaded to Street View will officially
-have timestamps from midnight to three minutes past midnight on Friday 14th, but, ehh, nobody really cares. 
+have timestamps from midnight to three minutes past midnight on Friday 14th, but, ehh, nobody really cares. The .mp3 and the .gpx will be in sync, and you will be admitted into
+Street View's country club. That's the important thing.
 
 ## 📝 License
 
