@@ -43,7 +43,7 @@ We can now create that .gpx file as follows:
 python3 dump_gps_gpx.py 100125.360 MyFootage.mp4 -o MyFootage.gpx
 
 In Street View, you can now choose to import your MyFootage.mp4 file. At this point the importer will run around with its hair on fire and put up orange warning triangles
-telling you you're a terrible person for not including any GPS data. Fret not, Google. You can assuage its misery by choosing to click on the small context menu that allows
+telling you you're a terrible person for not including any GPS data. Fret not, Google. You can assuage its misery by choosing to click on the small three dot context menu that allows
 you to upload a separate GPX file. Choose MyFootage.gpx. At this point Street View will be all smiles, showing you the GPS path in blue, and it will be ready for you to confirm
 your upload, taking a new attitude of, "Why didn't you say so? Come IN, old boy!" sort of thing.
 
